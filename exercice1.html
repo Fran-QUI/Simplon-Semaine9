@@ -8,8 +8,6 @@
   <link rel="stylesheet" href="./css/master.css" />
   <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
   <title>Exercice 1 : Les Objets</title>
-
-  </style>
 </head>
 <body>
   <div class="container-fluid">
@@ -32,12 +30,23 @@
       </div>
       <button type="ajouter" class="btn btn-default" id="ajouter">Ajouter</button>
     </form>
+    <form class="form-inline">
+      <div class="form-group">
+        <label for="Rechercher">Rechercher</label>
+        <input type="text" class="form-control" id="rechTxt" placeholder="Rechercher">
+      </div>
+      <button type="submit" class="btn btn-default" id="rechBtn">Rechercher</button>
+      <ul id="resultatRecherche"></ul>
+    </form>
   </div>
 </body>
 
+<div class="container">
 <ul id="liste"></ul>
-
+</div>
 
 <script src="./js/exo1.js"></script>
+
+
 
 </html>
